@@ -30,7 +30,7 @@ const Random = () => {
     border-black flex flex-col items-center gap-y-5 mt-[15px]'>
       <h1 className='mt-[15px] text-2xl underline uppercase font-medium'>A Random Gif</h1>
       {
-        loading ? (<Spinner/>):(<img src={gif} width={450} alt='image'/>)
+        loading ? (<Spinner/>):(<img src={gif} width={450} alt='imag'/>)
       }
       <button 
       onClick={clickHandler}
